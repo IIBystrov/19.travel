@@ -2,18 +2,30 @@
 
 /*variables*/
 
-/* header */
+
+/*.wrapper*/
+
+.wrapper {
+	position: relative;
+
+	width: 100%;
+	max-width: 1440px;
+
+	overflow: hidden;
+}
+
+/* .header */
 
 .header {
 	position: relative;
 
-	width:100%;
+	width: 100%;
 }
 
-/* nav */
+/* .nav */
 
 .nav {
 	position: relative;
 
-	width:100%;
+	width: 100%;
 }
