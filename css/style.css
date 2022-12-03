@@ -29,3 +29,8 @@
 
 	width: 100%;
 }
+
+.nav__item {
+	display: flex;
+	flex-direction: row;
+}
