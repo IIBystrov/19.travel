@@ -6,6 +6,14 @@
 
 .header {
 	position: relative;
-	
+
+	width:100%;
+}
+
+/* nav */
+
+.nav {
+	position: relative;
+
 	width:100%;
 }
