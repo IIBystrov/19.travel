@@ -27,6 +27,11 @@
 .nav {
 	position: relative;
 
+	widsth: 100%;
+	max-width: 1170px;
+}
+
+.nav__list {
 	display: flex;
 	flex-direction: row;
 	justify-content:space-between;
@@ -34,9 +39,4 @@
 	gap: 128px;
 
 	width: 100%;
-	max-width: 1170px;
-}
-
-.nav__item {
-	
 }
