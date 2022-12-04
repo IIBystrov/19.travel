@@ -27,8 +27,10 @@
 .nav {
 	position: relative;
 
-	widsth: 100%;
+	width: 100%;
 	max-width: 1170px;
+
+	margin: 0 auto;
 }
 
 .nav__list {
