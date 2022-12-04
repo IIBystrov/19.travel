@@ -20,6 +20,7 @@
 	position: relative;
 	
 	width: 100%;
+	min-height: 100vh
 }
 
 /* .header */
@@ -84,4 +85,20 @@
 	height: 2px;
 
 	background: rgba(255, 255, 255, 0.5);
+}
+
+
+/* .cover */
+
+.cover {
+	display: block;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: -1;
+
+	width: 100%;
+
 }
