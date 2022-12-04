@@ -27,10 +27,16 @@
 .nav {
 	position: relative;
 
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+	gap: 128px;
+
 	width: 100%;
+	max-width: 1170px;
 }
 
 .nav__item {
-	display: flex;
-	flex-direction: row;
+	
 }
