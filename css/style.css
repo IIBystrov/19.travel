@@ -159,8 +159,15 @@
 
 .features__header {
 	margin: 0 54px;
+	
+	text-align: center;
 }
 
 .features__header *:not(:last-child) {
 	margin: 0 0 10px;
+}
+
+.features__title {
+	font: 500 normal 40px/1.5 "Poppins", sans-serif;
+	color: #ffffff;
 }
