@@ -118,3 +118,8 @@
 
 	text-align: center;
 }
+
+.intro__title {
+	font: 700 normal 96px/1.5 "Poppins", sans-serif;
+	color: #ffffff;
+}
