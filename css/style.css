@@ -151,3 +151,12 @@
 	font: 500 normal 24px/1.16 "Inter", sans-serif;
 	color: #ffffff;
 }
+
+
+/* .features */
+
+/* .features__header */
+
+.features__header {
+	margin: 0 54px;
+}
