@@ -127,6 +127,8 @@
 .intro__lead {
 	font: 300 normal 24px/1.5 "Poppins", sans-serif; 
 	color: #ffffff;
+
+	opacity: 0.8;
 }
 
 .intro__lead *:not(:last-child) {
