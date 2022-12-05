@@ -160,3 +160,7 @@
 .features__header {
 	margin: 0 54px;
 }
+
+.features__header *:not(:last-child) {
+	margin: 0 0 10px;
+}
