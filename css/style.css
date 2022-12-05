@@ -123,3 +123,12 @@
 	font: 700 normal 96px/1.5 "Poppins", sans-serif;
 	color: #ffffff;
 }
+
+.intro__lead {
+	font: 300 normal 24px/1.5 "Poppins", sans-serif; 
+	color: #ffffff;
+}
+
+.intro__lead *:not(:last-child) {
+	margin: 0 0 15px;
+}
