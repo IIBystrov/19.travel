@@ -39,7 +39,8 @@
 	width: 100%;
 	max-width: 1170px;
 
-	margin: 0 auto;
+	margin: 0 auto 98px;
+	padding: 72px 0 0;
 }
 
 .nav__list {
@@ -100,5 +101,4 @@
 	z-index: -1;
 
 	width: 100%;
-
 }
