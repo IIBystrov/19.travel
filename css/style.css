@@ -171,3 +171,11 @@
 	font: 500 normal 40px/1.5 "Poppins", sans-serif;
 	color: #ffffff;
 }
+
+.features__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 24px;
+}
