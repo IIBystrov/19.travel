@@ -134,3 +134,19 @@
 .intro__lead *:not(:last-child) {
 	margin: 0 0 15px;
 }
+
+.intro__btn {
+	display: block;
+
+	width: 191px;
+
+	margin: 0 auto;
+	padding: 16px 71px;
+
+	background: #00B43D;
+	border: 3px solid #ffffff;
+	border-radius: 8px;
+
+	font: 500 normal 24px/1.16 "Inter", sans-serif;
+	color: #ffffff;
+}
