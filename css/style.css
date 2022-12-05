@@ -11,8 +11,6 @@
 	width: 100%;
 	max-width: 1440px;
 
-	padding: 0 10px;
-
 	overflow: hidden;
 }
 
@@ -23,6 +21,8 @@
 	
 	width: 100%;
 	min-height: 100vh;
+
+	padding: 0 10px;
 }
 
 /* .header */
@@ -48,9 +48,8 @@
 .nav__list {
 	display: flex;
 	flex-direction: row;
-	justify-content:space-between;
+	justify-content: space-between;
 	align-items: center;
-	gap: 128px;
 
 	width: 100%;
 
