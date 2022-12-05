@@ -155,6 +155,10 @@
 
 /* .features */
 
+.features {
+	width: 100%;
+}
+
 /* .features__header */
 
 .features__header {
