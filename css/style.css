@@ -109,3 +109,8 @@
 .intro {
 	width: 100%;
 }
+
+.intro__header {
+	width: 100%;
+	max-width: 749px;
+}
