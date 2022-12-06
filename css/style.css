@@ -267,6 +267,8 @@
 .cards__img {
 	display: block;
 
+	overflow: hidden;
+
 	width: 100%;
 	max-width: 272px;
 	height: 100%;
