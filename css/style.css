@@ -93,15 +93,14 @@
 /* .cover */
 
 .cover {
-	display: block;
-
 	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	z-index: -1;
-
-	width: 100%;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    width: 100%;
+    min-height: 1000px;
+    object-fit: cover;
 }
 
 
