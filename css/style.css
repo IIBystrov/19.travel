@@ -222,3 +222,8 @@
 .card__header *:not(:last-child) {
 	margin: 0 0 5px;
 }
+
+.cards__title {
+	font: 500 normal 32px/1.5 "Poppins", sans-serif;
+	color: #ffffff;
+}
