@@ -214,3 +214,11 @@
 	background-color:rgba(88, 88, 88, 0.9);
 	border-radius: 8px;
 }
+
+.card__header {
+	margin: 0 0 6px;
+}
+
+.card__header *:not(:last-child) {
+	margin: 0 0 5px;
+}
