@@ -118,7 +118,7 @@
 
 	opacity: 1;
 
-	text-shadow: 0 0 10px #ffffff
+	box-shadow: 0 0 10px #ffffff;	
 }
 
 
@@ -150,6 +150,8 @@
 	border-radius: 30%;
 
 	opacity: 1;
+
+	box-shadow: 0 0 10px #ffffff;
 }
 
 
