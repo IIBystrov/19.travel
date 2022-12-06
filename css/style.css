@@ -90,18 +90,6 @@
 }
 
 
-/* .cover */
-
-.cover {
-	position: absolute;
-    top: 0;
-    left: 50%;
-    z-index: -1;
-    transform: translateX(-50%);
-    width: 100%;
-    min-height: 1000px;
-    object-fit: cover;
-}
 
 
 /* .intro */
