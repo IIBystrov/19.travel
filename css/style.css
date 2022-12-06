@@ -302,10 +302,23 @@
 	padding: 6px 17px 5px;
 
 	background: rgba(78, 78, 78, 0.45);
+	border: 1px solid rgba(78, 78, 78, 0.45);
 	border-radius: 8px;
 
 	font: 500 normal 12px/2.3 "Inter", sans-serif;
 	color: #ffffff;
 
-	opacity: 0.9;
+	opacity: 0.8;
+
+	transition: background 0.3s ease-in, border 0.3s ease-in, 
+				box-shadow 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+.cards__excerpt:hover,
+.cards__excerpt:focus {
+	background: rgba(78, 78, 78, 1);
+	border: 1px solid #ffffff;
+	box-shadow: 0px 0px 15px #f1e3e3;
+
+	opacity: 1;
 }
