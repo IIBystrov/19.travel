@@ -187,11 +187,20 @@
 	padding: 16px 71px;
 
 	background: #00B43D;
-	border: 3px solid #ffffff;
+	border: 3px solid #00B43D;
 	border-radius: 8px;
 
 	font: 500 normal 24px/1.16 "Inter", sans-serif;
 	color: #ffffff;
+
+	transition: background 0.3s ease-in, border 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.intro__btn:hover,
+.intro__btn:focus {
+	background: #13d454;
+	border: 3px solid #ffffff;
+	box-shadow: 0px 0px 20px #13d454, -0px -0px 40px #13d454;
 }
 
 
