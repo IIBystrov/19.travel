@@ -183,3 +183,14 @@
 	align-items: center;
 	gap: 24px;
 }
+
+/* .cards */
+
+.cards__item {
+	width: 100%;
+	max-width: 320px;
+
+	padding: 24px 24px;
+
+	background: rgba(88, 88, 88, 0.5);
+}
