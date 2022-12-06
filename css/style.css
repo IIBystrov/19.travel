@@ -32,6 +32,13 @@
 	background-position: center center;
 }
 
+.contain--features {
+	background: url("../img/image/features__cover.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
 /* .header */
 
 .header {
