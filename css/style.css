@@ -227,3 +227,14 @@
 	font: 500 normal 32px/1.5 "Poppins", sans-serif;
 	color: #ffffff;
 }
+
+.cards__description {
+	margin: 0 0 32px;
+
+	font: 300 normal 16px/1.5 "Poppins", sans-serif;
+	color: #ffffff;
+}
+
+.cards__description *:not(:last-child) {
+	margin: 0 0 10px;
+}
