@@ -28,14 +28,16 @@
 }
 
 .contain--intro {
-	background: url("../img/image/cover.jpg");
+	background: linear-gradient(rgba(78, 78, 78, 0.3), rgba(78, 78, 78, 0.2)),
+				url("../img/image/cover.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
 .contain--features {
-	background: url("../img/image/features__cover.jpg");
+	background: linear-gradient(rgba(78, 78, 78, 0.4), rgba(78, 78, 78, 0.2)),
+				url("../img/image/features__cover.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
