@@ -105,11 +105,13 @@
 	transition: opacity 0.3s ease-in, width 0.3s ease-in;
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__link:focus {
 	opacity: 1;
 }
 
-.nav__link:hover.nav__link::after {
+.nav__link:hover.nav__link::after,
+.nav__link:focus.nav__link::after {
 	width: 100%;
 
 	opacity: 1;
