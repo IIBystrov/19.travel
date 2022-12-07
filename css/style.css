@@ -356,3 +356,19 @@
 	background:rgba(78, 78, 78, 0.65);
 	
 }
+
+.modal__contain {
+	position: fixed;
+	left: 50%;
+	transform: translatex(-50%);
+
+	max-width: 60%;
+	min-height: 250px;
+
+	margin-top: 150px;
+	padding: 10px;
+
+	background:#4e4e4e;
+	border: 3px solid #4e4e4e;
+	border-radius: 8px;
+}
