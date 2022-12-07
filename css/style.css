@@ -386,3 +386,8 @@
 	text-align: center;
 	color: #000000;
 }
+
+.modal__header {
+	font: 500 normal 24px/1.5 "Poppins", sans-serif;
+	color: #000000;
+}
