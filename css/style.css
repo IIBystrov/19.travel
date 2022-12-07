@@ -366,7 +366,8 @@
 	left: 50%;
 	transform: translatex(-50%);
 
-	max-width: 60%;
+	max-width: 70%;
+	min-width: 50%;
 	min-height: 250px;
 
 	margin-top: 150px;
@@ -375,19 +376,28 @@
 	background:#ffffff;
 	border: 3px solid #9fcea6;
 	border-radius: 8px;
-	box-shadow: 0 0 45px #9fcea6;
+	/* box-shadow: 0 0 45px #9fcea6; */
 }
 
 .modal__header {
 	width: 100%;
 
-	margin: 0 auto 20px;
+	margin: 0 auto 50px;
 
 	text-align: center;
 	color: #000000;
 }
 
-.modal__header {
+.modal__title {
 	font: 500 normal 24px/1.5 "Poppins", sans-serif;
+}
+
+.modal__form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 15px;
+
+	font: 300 normal 24px/1.5 "Poppins", sans-serif;
 	color: #000000;
 }
