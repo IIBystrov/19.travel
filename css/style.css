@@ -376,3 +376,12 @@
 	border: 3px solid #4e4e4e;
 	border-radius: 8px;
 }
+
+.modal__header {
+	width: 100%;
+
+	margin: 0 auto 20px;
+
+	text-align: center;
+	color: #ffffff;
+}
