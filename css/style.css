@@ -357,6 +357,10 @@
 	
 }
 
+.modal--active {
+	display: block;
+}
+
 .modal__contain {
 	position: fixed;
 	left: 50%;
