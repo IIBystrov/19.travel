@@ -401,3 +401,9 @@
 	font: 300 normal 24px/1.5 "Poppins", sans-serif;
 	color: #000000;
 }
+
+.modal__input {
+	width: 100%;
+	
+	border: 1px solid #9fcea6;
+}
