@@ -1,5 +1,13 @@
 /* fonts */
 
+/* poppins light */
+
+@font-face {
+	font-family: "Poppins";
+	src: local("Poppins Light"),
+		url("../fonts/poppins/poppins_light.eot"),
+		url("../fonts/poppins/poppins_light.eot?#fiefix") format("")
+}
 /* poppins medium */
 
 @font-face {
