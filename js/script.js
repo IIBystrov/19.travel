@@ -1,0 +1,1 @@
+let introBtn = document.querySelector(".intro__btn");
