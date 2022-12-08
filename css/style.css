@@ -1,5 +1,20 @@
 /* fonts */
 
+/* poppins medium */
+
+@font-face {
+	font-family: "Poppins";
+	src: local("Poppins Medium"),
+		url("../fonts/poppins/poppins_medium.eot"),
+		url("../fonts/poppins/poppins_medium.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/poppins/poppins_medium.woff") format("woff2"),
+		url("../fonts/poppins/poppins_medium.woff") format("woff"),
+		url("../fonts/poppins/poppins_medium.ttf") format("truetype"),
+		url("../fonts/poppins/poppins_medium.svg") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
+
 /*variables*/
 
 
