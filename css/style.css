@@ -344,7 +344,7 @@
 /* .modal */
 
 .modal {
-	display: block;
+	display: none;
 
 	position: absolute;
 	left: 0;
