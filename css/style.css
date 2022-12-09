@@ -502,3 +502,13 @@
 	
 	border: 1px solid #9fcea6;
 }
+
+
+/* animations */
+
+/* anim-intro__btn */
+
+@keyframes anim-intro__btn {
+	0% {}
+	100% {}
+}
