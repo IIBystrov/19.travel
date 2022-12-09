@@ -510,5 +510,20 @@
 
 @keyframes anim-intro__btn {
 	0% {}
-	100% {}
+
+	50% {
+		background: #13d454;
+		border: 3px solid #ffffff;
+		box-shadow: 0px 0px 20px #13d454, -0px -0px 40px #13d454;
+
+		color: #ffffff;
+		text-shadow: 0px 0px 5px #ffffff;
+	}
+
+	100% {
+		background: #02ff56;
+		box-shadow: 0px 0px 40px #02ff56;
+
+		text-shadow: 0px 0px 15px #ffffff;
+	}
 }
