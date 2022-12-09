@@ -6,7 +6,13 @@
 	font-family: "Poppins";
 	src: local("Poppins Light"),
 		url("../fonts/poppins/poppins_light.eot"),
-		url("../fonts/poppins/poppins_light.eot?#fiefix") format("")
+		url("../fonts/poppins/poppins_light.eot?#fiefix") format("embedded-opentype"),
+		url("../fonts/poppins/poppins_light.woff2") format("woff2"),
+		url("../fonts/poppins/poppins_light.woff") format("woff"),
+		url("../fonts/poppins/poppins_light.ttf") format("truetype"),
+		url("../fonts/poppins/poppins_light.svg") format("svg");
+	font-weight: 300;
+	font-style: normal;
 }
 /* poppins medium */
 
