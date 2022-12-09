@@ -295,15 +295,11 @@
 
 	font: 500 normal 24px/1.16 "Inter", sans-serif;
 	color: rgba(255, 255, 255, 0.7);
-
-	transition: background 0.3s ease-in, border 0.3s ease-in, 
-				box-shadow 0.3s ease-in, color 0.3s ease-in,
-				text-shadow 0.3s ease-in;
 }
 
 .intro__btn:hover,
 .intro__btn:focus {
-	animation: anim-intro__btn 2s ease-in infinite;
+	animation: anim-intro__btn 2s linear infinite 0.3s;
 }
 
 /* .features */
