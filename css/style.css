@@ -15,14 +15,13 @@
 	font-style: normal;
 }
 
-
 /* poppins light */
 
 @font-face {
 	font-family: "Poppins";
 	src: local("Poppins Light"),
 		url("../fonts/poppins/poppins_light.eot"),
-		url("../fonts/poppins/poppins_light.eot?#fiefix") format("embedded-opentype"),
+		url("../fonts/poppins/poppins_light.eot?#iefix") format("embedded-opentype"),
 		url("../fonts/poppins/poppins_light.woff2") format("woff2"),
 		url("../fonts/poppins/poppins_light.woff") format("woff"),
 		url("../fonts/poppins/poppins_light.ttf") format("truetype"),
@@ -30,6 +29,7 @@
 	font-weight: 300;
 	font-style: normal;
 }
+
 /* poppins medium */
 
 @font-face {
