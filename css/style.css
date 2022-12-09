@@ -29,6 +29,21 @@
 	font-style: normal;
 }
 
+/* poppins bold */
+
+@font-face {
+	font-family: Poppins;
+	src: local("Poppins Bold"),
+		url("../fonts/poppins/poppins_bold.eot"),
+		url("../fonts/poppins/poppins_bold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/poppins/poppins_bold.woff2") format("woff2"),
+		url("../fonts/poppins/poppins_bold.woff") format("woff"),
+		url("../fonts/poppins/poppins_bold.ttf") format("truetype"),
+		url("../fonts/poppins/poppins_bold.svg") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+
 /*variables*/
 
 
