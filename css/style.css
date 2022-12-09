@@ -75,7 +75,20 @@
 	font-style: normal;
 }
 
+/* roboto black */
 
+@font-face {
+	font-family: "Roboto";
+	src: local("Roboto black"),
+		url("../fonts/roboto/roboto_black.eot"),
+		url("../fonts/roboto/roboto_black.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/roboto/roboto_black.woff2") format("woff2"),
+		url("../fonts/roboto/roboto_black.woff") format("woff"),
+		url("../fonts/roboto/roboto_black.ttf") format("truetype"),
+		url("../fonts/roboto/roboto_black.svg") format("svg");
+	font-weight: 900;
+	font-style: normal;
+}
 
 /*variables*/
 
