@@ -92,6 +92,9 @@
 
 /*variables*/
 
+:root {
+	--standart-color: #ffffff;
+}
 
 /*.wrapper*/
 
@@ -164,7 +167,7 @@
 	width: 100%;
 
 	font: 500 normal 24px/1.5 "Poppins", sans-serif;
-	color: #ffffff;
+	color: var(--standart-color);
 }
 
 .nav__link {
