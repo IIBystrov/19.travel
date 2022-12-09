@@ -267,12 +267,12 @@
 
 .intro__title {
 	font: 700 normal 96px/1.5 "Poppins", sans-serif;
-	color: #ffffff;
+	color: var(--standart-color);
 }
 
 .intro__lead {
 	font: 300 normal 24px/1.5 "Poppins", sans-serif; 
-	color: #ffffff;
+	color: var(--standart-color);
 
 	opacity: 0.8;
 }
@@ -324,7 +324,7 @@
 
 .features__title {
 	font: 500 normal 40px/1.5 "Poppins", sans-serif;
-	color: #ffffff;
+	color: var(--standart-color);
 }
 
 .features__list {
@@ -379,14 +379,14 @@
 
 .cards__title {
 	font: 500 normal 32px/1.5 "Poppins", sans-serif;
-	color: #ffffff;
+	color: var(--standart-color);
 }
 
 .cards__description {
 	margin: 0 0 32px;
 
 	font: 300 normal 16px/1.5 "Poppins", sans-serif;
-	color: #ffffff;
+	color: var(--standart-color);
 	text-align: left;
 }
 
@@ -406,7 +406,7 @@
 	border-radius: 8px;
 
 	font: 500 normal 12px/2.3 "Inter", sans-serif;
-	color: #ffffff;
+	color: var(--standart-color);
 
 	opacity: 0.8;
 
@@ -458,7 +458,7 @@
 	margin-top: 150px;
 	padding: 20px;
 
-	background:#ffffff;
+	background: var(--standart-bg);
 	border: 3px solid #9fcea6;
 	border-radius: 8px;
 	/* box-shadow: 0 0 45px #9fcea6; */
