@@ -1,5 +1,21 @@
 /* fonts */
 
+/* poppins extra-light */
+
+@font-face {
+	font-family: "Poppins";
+	src: local("Poppins extralight"),
+		url("../fonts/poppins/poppins_extralight.eot"),
+		url("../fonts/poppins/poppins_extralight.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/poppins/poppins_extralight.woff2") format("woff2"),
+		url("../fonts/poppins/poppins_extralight.woff") format("woff"),
+		url("../fonts/poppins/poppins_extralight.ttf") format("truetype"),
+		url("../fonts/poppins/poppins_extralight.svg") format("svg");
+	font-weight: 200;
+	font-style: normal;
+}
+
+
 /* poppins light */
 
 @font-face {
