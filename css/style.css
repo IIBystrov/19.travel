@@ -60,6 +60,23 @@
 	font-style: normal;
 }
 
+/* inter medium */
+
+@font-face {
+	font-family: "Inter";
+	src: local("Inter medium"),
+		url("../fonts/inter/inter_medium.eot"),
+		url("../fonts/inter/inter_medium.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/inter/inter_medium.woff2") format("woff2"),
+		url("../fonts/inter/inter_medium.woff") format("woff"),
+		url("../fonts/inter/inter_medium.ttf") format("truetype"),
+		url("../fonts/inter/inter_medium.svg") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+
 /*variables*/
 
 
