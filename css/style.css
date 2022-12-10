@@ -549,18 +549,18 @@
 
 @keyframes anim-intro__btn {
 	0% {
-		background: #13d454;
+		background: var(--accent-bg);
 
-		box-shadow: 0 0 10px #13d454, 0 0 20px #13d454;
+		box-shadow: 0 0 10px var(--accent-shadow), 0 0 20px var(--accent-bg);
 	}
 
 	20% {
-		background: #13d454;
-		border: 3px solid #ffffff;
-		box-shadow: 0 0 20px #13d454, 0px 0 40px #13d454;
+		background: var(--accent-bg);
+		border: 3px solid var(--standart-border);
+		box-shadow: 0 0 20px var(--accent-bg), 0px 0 40px var(--accent-bg);
 
-		color: #ffffff;
-		text-shadow: 0 0 5px #ffffff;
+		color: var(--standart-color);
+		text-shadow: 0 0 5px var(--standart-color);
 	}
 
 	40% {
