@@ -94,6 +94,7 @@
 
 :root {
 	--standart-color: #ffffff;
+	--accent-color: #000000;
 	--standart-bg: #ffffff;
 	--standart-shadow: #ffffff;
 }
@@ -502,7 +503,7 @@
 	0% {
 		background: #13d454;
 
-		box-shadow: 0 0px 10px #13d454, 0 0 20px #13d454;
+		box-shadow: 0 0 10px #13d454, 0 0 20px #13d454;
 	}
 
 	20% {
