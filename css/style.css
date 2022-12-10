@@ -565,29 +565,29 @@
 
 	40% {
 		background: #02ff56;
-		box-shadow: 0 0 40px #13d454, 0 0 40px #13d454;
+		box-shadow: 0 0 40px var(--accent-shadow), 0 0 40px var(--accent-color);
 
-		text-shadow: 0 0 10px #ffffff;
+		text-shadow: 0 0 10px var(--standart-color);
 	}
 
 	60% {
-		background: #13d454;
-		box-shadow: 0 0 20px #13d454, 0 -0 40px #13d454;
+		background: var(--accent-bg);
+		box-shadow: 0 0 20px var(--accent-shadow), 0 0 40px var(--accent-shadow);
 
-		text-shadow: 0 0 5px #ffffff;
+		text-shadow: 0 0 5px var(--standart-color);
 	}
 
 	80% {
-		background: #13d454;
-		box-shadow: 0 0 50px #13d454, 0 0 60px #13d454;
+		background: var(--accent-bg);
+		box-shadow: 0 0 50px var(--accent-shadow), 0 0 60px var(--accent-shadow);
 
-		text-shadow: 0 0 15px #ffffff;
+		text-shadow: 0 0 15px var(--accent-shadow);
 	}
 
 	100% {
-		background: #13d454;
-		box-shadow: 0 0 20px #13d454, 0 0 40px #13d454;
+		background: var(--accent-bg);
+		box-shadow: 0 0 20px var(--accent-shadow), 0 0 40px var(--accent-shadow);
 
-		text-shadow: 0 0 5px #ffffff;
+		text-shadow: 0 0 5px var(--standart-color);
 	}
 }
