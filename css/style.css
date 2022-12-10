@@ -184,8 +184,8 @@
 	font-family: "Poppins", sans-serif;
 	font-weight: 500;
 	font-style: normal;
-	font-size: 24px;
-	line-height: 1.5;
+	font-size: var(--standart-text);
+	line-height: var(--standart-lineheight);
 	color: var(--standart-color);
 }
 
