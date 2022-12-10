@@ -294,6 +294,11 @@
 
 .intro__lead {
 	font: 300 normal 24px/1.5 "Poppins", sans-serif; 
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: var(--standart-text);
+	line-height: var(--standart-lineheight);
 	color: var(--standart-color);
 
 	opacity: 0.8;
