@@ -431,6 +431,7 @@
 	font-weight: 300;
 	font-style: normal;
 	font-size: calc(var(--accent-t-text)/2);
+	line-height: var(--standart-lineheight);
 	color: var(--standart-color);
 	text-align: left;
 }
@@ -467,10 +468,10 @@
 .cards__excerpt:hover,
 .cards__excerpt:focus {
 	background: rgba(78, 78, 78, 1);
-	border: 1px solid #ffffff;
-	box-shadow: 0px 0px 15px #f1e3e3;
+	border: 1px solid var(--standart-border);
+	box-shadow: 0px 0px 15px var(--active-shadow);
 
-	text-shadow: 0 0 10px #ffffff;
+	text-shadow: 0 0 10px var(--standart-shadow);
 
 	opacity: 1;
 }
@@ -510,7 +511,6 @@
 	background: var(--standart-bg);
 	border: 3px solid #9fcea6;
 	border-radius: 8px;
-	/* box-shadow: 0 0 45px #9fcea6; */
 }
 
 .modal__header {
@@ -519,7 +519,7 @@
 	margin: 0 auto 50px;
 
 	text-align: center;
-	color: #000000;
+	color: var(--accent-color);
 }
 
 .modal__title {
