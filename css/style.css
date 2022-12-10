@@ -449,7 +449,11 @@
 	border: 1px solid rgba(78, 78, 78, 0.45);
 	border-radius: 8px;
 
-	font: 500 normal 12px/2.3 "Inter", sans-serif;
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: calc(var(--standart-text)/2);
+	line-height: var(--standart-lineheight);
 	color: var(--standart-color);
 
 	opacity: 0.8;
