@@ -316,11 +316,15 @@
 	margin: 0 auto;
 	padding: 16px 71px;
 
-	background: #00B43D;
-	border: 3px solid #00B43D;
+	background: var(--inactive-bg);
+	border: 3px solid var(--inactive-border);
 	border-radius: 8px;
 
-	font: 500 normal 24px/1.16 "Inter", sans-serif;
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: var(--standart-text);
+	line-height: var(--standart-lineheight);
 	color: rgba(255, 255, 255, 0.7);
 }
 
