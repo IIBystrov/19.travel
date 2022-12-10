@@ -109,6 +109,7 @@
 	--standart-lineheight: 1.5;
 
 	--standart-text: 24px;
+	--accent-t-text: 32px;
 	--accent-s-text: 40px;
 	--accent-text: 76px;
 }
@@ -417,7 +418,7 @@
 	font-family: "Poppins", sans-serif;
 	font-weight: 500;
 	font-style: normal;
-	font-size: 32px;
+	font-size: var(--accent-t-text);
 	line-height: var(--standart-lineheight);
 	color: var(--standart-color);
 }
@@ -425,7 +426,10 @@
 .cards__description {
 	margin: 0 0 32px;
 
-	font: 300 normal 16px/1.5 "Poppins", sans-serif;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: calc(var(--accent-t-text)/2);
 	color: var(--standart-color);
 	text-align: left;
 }
