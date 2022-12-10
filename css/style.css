@@ -109,6 +109,7 @@
 	--standart-lineheight: 1.5;
 
 	--standart-text: 24px;
+	--accent--text: 76px;
 }
 
 /*.wrapper*/
@@ -283,7 +284,11 @@
 }
 
 .intro__title {
-	font: 700 normal 96px/1.5 "Poppins", sans-serif;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: var(--accent--text);
+	line-height: var(--standart-lineheight);
 	color: var(--standart-color);
 }
 
