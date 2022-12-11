@@ -19,6 +19,8 @@ function animNavBtn() {
     btnLineTop.classList.toggle("btn__line--top");
     btnLineMiddle.classList.toggle("btn__line--middle");
     btnLineBottom.classList.toggle("btn__line--bottom");
+
+    navList.classList.toggle("nav__list--show");
 }
 
 introBtn.addEventListener("click", showModal);
