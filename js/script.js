@@ -11,7 +11,11 @@ let btnLineTop = btnLine[1];
 let btnLineMiddle = btnLine[2];
 let btnLineBottom = btnLine[3];
 
-navBtn.addEventListener("click", showNav);
+navBtn.addEventListener("click", animNavBtn);
+
+function animNavBtn() {
+    btnLineTop.classList.toggle("btn__line--top");
+}
 
 introBtn.addEventListener("click", showModal);
 
