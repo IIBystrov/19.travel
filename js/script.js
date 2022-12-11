@@ -1,12 +1,15 @@
 "use strict";
 
 let introBtn = document.querySelector(".intro__btn");
+
 let modalWindow = document.querySelector(".modal");
 let modalWindowActive = document.querySelector(".modal--active");
+
 let navBtn = document.querySelector(".nav__btn");
 let btnLine = document.querySelectorAll(".btn__line");
 let btnLineTop = btnLine[1];
 let btnLineMiddle = btnLine[2];
+let btnLineBottom = btnLine[3];
 
 navBtn.addEventListener("click", showNav);
 
