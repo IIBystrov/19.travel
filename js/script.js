@@ -11,6 +11,8 @@ let btnLineTop = btnLine[0];
 let btnLineMiddle = btnLine[1];
 let btnLineBottom = btnLine[2];
 
+let navList = document.querySelector(".nav__list");
+
 navBtn.addEventListener("click", animNavBtn);
 
 function animNavBtn() {
