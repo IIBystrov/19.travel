@@ -559,6 +559,7 @@
 		position: absolute;
 		right: 30px;
 		top: 65px;
+		z-index: 10;
 
 		width: 45px;
 		height: 35px;
@@ -608,6 +609,22 @@
 	
 	.nav__list {
 		display: none;
+	}
+
+	.nav__list--show {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+
+		position: absolute;
+		z-index: 9;
+
+		height: 83vh;
+
+		background: linear-gradient(rgba(24, 43, 48, 0) 0%, rgba(24, 43, 48, 1) 16%, 
+									rgba(24, 43, 48, 1) 61%, rgba(24, 43, 48, 0) 100%);
+
+		transform: background 0.3s ease-in;
 	}
 	
 }
