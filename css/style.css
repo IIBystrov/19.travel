@@ -270,6 +270,12 @@
 	transition: transform 0.3s ease-in;
 }
 
+.btn__line--middle {
+	transform: scaleY(0);
+
+	transition: transform 0.2s ease-in;
+}
+
 /* .active */
 
 .active {
