@@ -191,6 +191,8 @@
 	font-size: var(--standart-text);
 	line-height: var(--standart-lineheight);
 	color: var(--standart-color);
+
+	transition: background 0.3s ease-in;
 }
 
 .nav__link {
