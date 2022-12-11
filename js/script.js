@@ -4,7 +4,7 @@ let introBtn = document.querySelector(".intro__btn");
 let modalWindow = document.querySelector(".modal");
 let modalWindowActive = document.querySelector(".modal--active");
 let navBtn = document.querySelector(".nav__btn");
-let btnLine = document.querySelectorAll(".btnLine");
+let btnLine = document.querySelectorAll(".btn__line");
 
 navBtn.addEventListener("click", showNav);
 
