@@ -237,6 +237,16 @@
 	box-shadow: 0 0 10px var(--standart-shadow);	
 }
 
+.nav__btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 32px;
+	height: 26px;
+}
+
 
 /* .active */
 
@@ -541,6 +551,10 @@
 	
 	border: 1px solid #9fcea6;
 }
+
+
+/* media */
+
 
 
 /* animations */
