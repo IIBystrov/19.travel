@@ -578,8 +578,14 @@
 	
 		transform-origin: 0 0;
 	
-		transition: transform 0.3s ease-in;
+		transition: transform 0.3s ease-in, background 0.3s ease-in;
 	}
+
+	.nav__btn:hover.btn__line,
+	.nav__btn:focus.btn__line {
+		background: var(--accent-bg);
+	}
+
 	
 	.btn__line:last-child {
 		transform-origin: 0 100%;
