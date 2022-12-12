@@ -550,6 +550,10 @@
 
 @media screen and (max-width: 1024px) {
 
+	.contain {
+		min-height: auto;
+	}
+
 	.nav__btn {
 		display: flex;
 		flex-direction: column;
