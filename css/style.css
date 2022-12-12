@@ -670,6 +670,10 @@
 	.intro__title {
 		font-size: calc(var(--accent-text)*0.8);
 	}
+
+	.intro__lead {
+		font-size: cacl(var(--standart-text)*0.9);
+	}
 }
 
 /* animations */
