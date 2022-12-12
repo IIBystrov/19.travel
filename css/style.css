@@ -654,12 +654,16 @@
 	.nav__list--show {
 		height: 60vh;
 	}
-	
+
 	.intro__header {
 		margin: 0 auto 300px;
 	}
 }
 
+@media screen and (max-width: 481px) {
+
+	
+}
 
 /* animations */
 
