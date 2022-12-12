@@ -666,6 +666,10 @@
 		margin: 0 auto 80px;
 		padding: 35px 0 0;
 	}
+
+	.intro__title {
+		font-size: calc(var(--accent-text)*0.8);
+	}
 }
 
 /* animations */
