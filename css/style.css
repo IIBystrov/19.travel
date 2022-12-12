@@ -662,7 +662,10 @@
 
 @media screen and (max-width: 481px) {
 
-	
+	.nav {
+		margin: 0 auto 80px;
+		padding: 35px 0 0;
+	}
 }
 
 /* animations */
