@@ -667,6 +667,14 @@
 		padding: 35px 0 0;
 	}
 
+	.nav__list--show {
+		height: 50vh;
+	}
+
+	.intro__header {
+		margin: 0 auto 230px;
+	}
+
 	.intro__title {
 		font-size: calc(var(--accent-text)*0.8);
 	}
