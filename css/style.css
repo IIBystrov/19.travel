@@ -531,6 +531,27 @@
 	width: 100%;
 }
 
+.modal__lead {
+	position: absolute;
+	left: 10%;
+	bottom: 10%;
+	z-index: 1;
+
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: calc(var(--accent-text)/2);
+	line-height: calc(var(--standart-lineheight)*0.8);
+	letter-spacing: 1px;
+	color: var(--standart-color);
+
+	opacity: 0.9;
+}
+
+.modal__lead *:not(:last-child) {
+	margin: 0 0 10px;
+}
+
 .modal__header {
 	width: 100%;
 
