@@ -682,6 +682,10 @@
 	.intro__lead {
 		font-size: cacl(var(--standart-text)*0.9);
 	}
+
+	.features {
+		padding: 60px 0 0 0;
+	}
 }
 
 /* animations */
