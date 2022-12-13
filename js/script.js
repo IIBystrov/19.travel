@@ -15,6 +15,7 @@ let navList = document.querySelector(".nav__list");
 
 let closeBtn = document.querySelector(".modal__close");
 
+
 navBtn.addEventListener("click", animNavBtn);
 
 function animNavBtn() {
@@ -25,10 +26,16 @@ function animNavBtn() {
     navList.classList.toggle("nav__list--show");
 }
 
+
 introBtn.addEventListener("click", showModal);
 
 function showModal() {
     modalWindow.classList.add("modal--active");
 }
 
-closeBtn.addEvenListener("click", closeModal);
+
+closeBtn.addEventListener("click", closeModal);
+
+function closeModal() {
+    modalWindow.classList.remove("modal--active");
+}
