@@ -632,6 +632,11 @@
 	transform-origin: 0 100%;
 }
 
+.modal__input-contain {
+	position: relative;
+}
+
+
 
 /* media */
 
