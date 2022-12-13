@@ -671,12 +671,17 @@
 		height: 50vh;
 	}
 
+	.contain {
+		padding: 0 10px 80px;
+	}
+
 	.intro__header {
 		margin: 0 auto 230px;
 	}
 
 	.intro__title {
 		font-size: calc(var(--accent-text)*0.8);
+		line-height: calc(var(--standart-lineheight)*0.7);
 	}
 
 	.intro__lead {
