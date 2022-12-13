@@ -519,6 +519,18 @@
 	border-radius: 8px;
 }
 
+.modal__column--img {
+	position: relative;
+
+	width: 60%;
+}
+
+.modal__img img {
+	display: block;
+
+	width: 100%;
+}
+
 .modal__header {
 	width: 100%;
 
