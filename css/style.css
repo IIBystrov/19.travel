@@ -94,6 +94,7 @@
 
 :root {
 	--standart-color: #ffffff;
+	--active-color: #13d454;
 	--accent-color: #000000;
 
 	--standart-bg: #ffffff;
@@ -101,6 +102,7 @@
 	--accent-bg: #13d454;
 
 	--standart-border: #ffffff;
+	--active-border: #13d454;
 	--inactive-border: #00B43D;
 	--disable-border: #979797;
 
@@ -640,7 +642,23 @@
 
 	border: 1px solid var(--disable-border);
 	border-radius: 10px;
+
+	transition: border 0.3s ease-in;
 }
+
+.modal__input-contain:hover {
+	border: 1px solid var(--active-border);
+}
+
+.modal__input::placeholder {
+	color: var(--accent-color);
+
+	transition: color 0.3s ease-in;
+}
+
+.modal__input-contain:hover .modal__input::placeholder {
+	color: var(--active-color);
+} 
 
 .modal__input {
 	width: 100%;
