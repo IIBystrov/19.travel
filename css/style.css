@@ -513,11 +513,9 @@
 	max-width: 1440px;
 	height: auto;
 
-	margin-top: 150px;
-	padding: 20px;
+	margin-top: 90px;
 
 	background: var(--standart-bg);
-	border: 3px solid #9fcea6;
 	border-radius: 8px;
 }
 
