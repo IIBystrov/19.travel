@@ -30,3 +30,5 @@ introBtn.addEventListener("click", showModal);
 function showModal() {
     modalWindow.classList.add("modal--active");
 }
+
+closeBtn.addEvenListener("click", closeModal);
