@@ -598,7 +598,7 @@
 
 .modal__close {
 	position: absolute;
-	top: 3%;
+	top: 5%;
 	right: 3%;
 
 	display: flex;
@@ -610,6 +610,16 @@
 	height: 35px;
 
 	background: inherit;
+}
+
+.close__line {
+	display: block;
+
+	width: 100%;
+	height: 5px;
+
+	background: var(--accent-color);
+	border-radius: 10px;
 }
 
 
