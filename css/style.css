@@ -686,6 +686,10 @@
 	.features {
 		padding: 60px 0 0 0;
 	}
+
+	.features__title {
+		font-size: calc(var(--accent-s-text)*0.8);
+	}
 }
 
 /* animations */
