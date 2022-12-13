@@ -513,7 +513,7 @@
 	max-width: 1440px;
 	height: 85vh;
 
-	margin-top: 90px;
+	margin-top: 60px;
 
 	background: var(--standart-bg);
 	border-radius: 8px;
@@ -620,6 +620,16 @@
 
 	background: var(--accent-color);
 	border-radius: 10px;
+}
+
+.close__line--top {
+	transform: rotate(45deg);
+	transform-origin: 0 0;
+}
+
+.close__line--bottom {
+	transform: rotate(-45deg);
+	transform-origin: 0 100%;
 }
 
 
