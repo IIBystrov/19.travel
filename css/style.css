@@ -585,10 +585,10 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 15px;
+	gap: 20px;
 
 	font: 300 normal 24px/1.5 "Poppins", sans-serif;
-	color: #000000;
+	color: var(--accent-color);
 }
 
 .modal__close {
@@ -640,6 +640,29 @@
 
 	border: 1px solid var(--disable-border);
 	border-radius: 10px;
+}
+
+.modal__input {
+	width: 100%;
+}
+
+.modal__btn {
+	display: block;
+
+	width: 100%;
+
+	padding: 20px;
+
+	background: var(--inactive-bg);
+	border: 1px solid var(--disable-border);
+	border-radius: 8px;
+
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: calc((--standart-text)*0.9);
+	line-height: var(--standart-lineheight);
+	color: var(--standart-color);
 }
 
 
