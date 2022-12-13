@@ -13,6 +13,8 @@ let btnLineBottom = btnLine[2];
 
 let navList = document.querySelector(".nav__list");
 
+let closeBtn = document.querySelector(".modal__close");
+
 navBtn.addEventListener("click", animNavBtn);
 
 function animNavBtn() {
