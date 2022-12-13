@@ -690,6 +690,10 @@
 	.features__title {
 		font-size: calc(var(--accent-s-text)*0.8);
 	}
+
+	.cards__item {
+		max-width: 370px;
+	}
 }
 
 /* animations */
