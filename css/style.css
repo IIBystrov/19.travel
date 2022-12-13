@@ -664,6 +664,19 @@
 	width: 100%;
 }
 
+.modal__input-icon {
+	width: 31px;
+	height: 37px;
+
+	fill: #979797;
+
+	transition: fill 0.3s ease-in;
+}
+
+.modal__input-contain:hover .modal__input-icon {
+	fill: var(--active-color);
+}
+
 .modal__btn {
 	display: block;
 
