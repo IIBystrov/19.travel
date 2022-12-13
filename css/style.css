@@ -511,7 +511,7 @@
 
 	width: 93%;
 	max-width: 1440px;
-	height: auto;
+	height: 85vh;
 
 	margin-top: 90px;
 
@@ -550,6 +550,11 @@
 
 .modal__lead *:not(:last-child) {
 	margin: 0 0 10px;
+}
+
+
+.modal__column--form {
+	padding: 89px 35px 0;
 }
 
 .modal__header {
