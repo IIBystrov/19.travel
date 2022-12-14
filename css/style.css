@@ -1087,6 +1087,10 @@
 
 		transition: transform 0.3s ease-in, opacity 0.3s ease-in, -webkit-transform 0.3s ease-in;
 	}
+
+	.modal__lead {
+		font-size: calc(var(--accent-text)/2.5);
+	}
 	
 }
 
