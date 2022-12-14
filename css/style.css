@@ -142,10 +142,9 @@
 }
 
 .contain--intro {
-	background: -webkit-gradient(linear, left top, left bottom, 
-				from(rgba(78, 78, 78, 0.3)), to(rgba(78, 78, 78, 0.2))), 
-				url("../img/image/cover.jpg");
 	background: -o-linear-gradient(rgba(78, 78, 78, 0.3), rgba(78, 78, 78, 0.2)),
+				url("../img/image/cover.jpg");
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(78, 78, 78, 0.3)), to(rgba(78, 78, 78, 0.2))),
 				url("../img/image/cover.jpg");
 	background: linear-gradient(rgba(78, 78, 78, 0.3), rgba(78, 78, 78, 0.2)),
 				url("../img/image/cover.jpg");
@@ -155,10 +154,9 @@
 }
 
 .contain--features {
-	background: -webkit-gradient(linear, left top, left bottom, 
-				from(rgba(78, 78, 78, 0.4)), to(rgba(78, 78, 78, 0.2))),
-				url("../img/image/features__cover.jpg");
 	background: -o-linear-gradient(rgba(78, 78, 78, 0.4), rgba(78, 78, 78, 0.2)),
+				url("../img/image/features__cover.jpg");
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(78, 78, 78, 0.4)), to(rgba(78, 78, 78, 0.2))),
 				url("../img/image/features__cover.jpg");
 	background: linear-gradient(rgba(78, 78, 78, 0.4), rgba(78, 78, 78, 0.2)),
 				url("../img/image/features__cover.jpg");
@@ -878,12 +876,14 @@
 
 	cursor: pointer;
 
-	-webkit-transition: background 0.3s ease-in, border 0.3s ease-in, text-shadow 0.3s ease-in, -webkit-box-shadow 0.3s ease-in;
+	-webkit-transition: background 0.3s ease-in, border 0.3s ease-in, 
+						text-shadow 0.3s ease-in, -webkit-box-shadow 0.3s ease-in;
 
-	transition: background 0.3s ease-in, border 0.3s ease-in, text-shadow 0.3s ease-in, -webkit-box-shadow 0.3s ease-in;
+	transition: background 0.3s ease-in, border 0.3s ease-in, 
+				text-shadow 0.3s ease-in, -webkit-box-shadow 0.3s ease-in;
 
-	-o-transition: background 0.3s ease-in, border 0.3s ease-in, box-shadow 0.3s ease-in, 
-				text-shadow 0.3s ease-in;
+	-o-transition: background 0.3s ease-in, border 0.3s ease-in, 
+					box-shadow 0.3s ease-in, text-shadow 0.3s ease-in;
 
 	transition: background 0.3s ease-in, border 0.3s ease-in, box-shadow 0.3s ease-in, 
 				text-shadow 0.3s ease-in;
@@ -1068,11 +1068,11 @@
 
 		height: 83vh;
 
-		background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 43, 48, 0)), color-stop(16%, rgba(24, 43, 48, 1)), 
-									color-stop(61%, rgba(24, 43, 48, 1)), to(rgba(24, 43, 48, 0)));
-
 		background: -o-linear-gradient(rgba(24, 43, 48, 0) 0%, rgba(24, 43, 48, 1) 16%, 
 									rgba(24, 43, 48, 1) 61%, rgba(24, 43, 48, 0) 100%);
+
+		background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 43, 48, 0)), 	color-stop(16%, rgba(24, 43, 48, 1)), 
+		color-stop(61%, rgba(24, 43, 48, 1)), to(rgba(24, 43, 48, 0)));
 
 		background: linear-gradient(rgba(24, 43, 48, 0) 0%, rgba(24, 43, 48, 1) 16%, 
 									rgba(24, 43, 48, 1) 61%, rgba(24, 43, 48, 0) 100%);
