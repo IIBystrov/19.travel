@@ -1103,6 +1103,10 @@
 	.intro__header {
 		margin: 0 auto 300px;
 	}
+
+	.modal__column--img {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 481px) {
