@@ -658,7 +658,11 @@
 }
 
 .modal__title {
-	font: 500 normal 24px/1.5 "Poppins", sans-serif;
+	font-family: "Popins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: var(--standart-text);
+	line-height: var(--standart-lineheight);
 }
 
 .modal__form {
